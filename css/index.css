@@ -1,0 +1,23 @@
+h1 {
+    font-family:'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+}
+h2{
+    font-family:'Arial Narrow', Arial, sans-serif;
+    font-size:  1.5rem;
+    height: 6vh;
+}
+body {
+    font-family:'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    background-color: #ff82f9;
+    margin: 20;
+    padding: 20;
+}
+#experience ul li{
+    list-style-type:none;
+    display: inline-block;
+    margin
+    font-size: 1.2rem;
+
+}
