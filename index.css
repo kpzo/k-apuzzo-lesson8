@@ -1,7 +1,25 @@
+
+#nav li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: #bafff9;
+    margin: .5em;
+    border-radius: 1em;
+    border-color: rgb(0, 0, 0);
+    border-style: dotted;
+    justify-content: center;
+    align-items: center;
+}
+
 h1 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Verdana, sans-serif;
     font-size: 2rem;
     -webkit-text-fill-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 h2{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Verdana, sans-serif;
@@ -16,16 +34,20 @@ body {
     margin: .5em;
     padding: 1em;
 }
+
 #Experience li {
-    list-style:none;
-    display: inline-block;
-    margin: .2em;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
-    padding: .5em;
+    padding: 1em;
     border-radius: 1em;
     border-color:rgb(255, 255, 255);
     border-style:dotted;
+    margin-bottom: 2em;
+    margin-right: 2em;
 }
 #profile-picture {
     border-radius: 2em;
