@@ -2,12 +2,15 @@ h1 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Verdana, sans-serif;
     font-size: 2rem;
     -webkit-text-fill-color: rgb(0, 0, 0);
+    text-align: center;
+    display:flex;
 }
 h2{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Verdana, sans-serif;
     font-size:  1.5rem;
     height: 6vh;
     -webkit-text-fill-color: rgb(128, 128, 128);
+    display:flex;
 }
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Verdana, sans-serif;
@@ -15,10 +18,10 @@ body {
     background-color: #bafff9;
     margin: .5em;
     padding: 1em;
+    display:flexbox;
 }
 #Experience li {
     list-style:none;
-    display: inline-block;
     margin: .2em;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
@@ -26,13 +29,24 @@ body {
     border-radius: 1em;
     border-color:rgb(255, 255, 255);
     border-style:dotted;
+    display:flexbox;
+}
+#Experience td {
+    font-weight: bold;
+}
+#Experience td[colspan="1"] {
+    padding-left: 30px;
+    font-weight: normal;
 }
 #profile-picture {
     border-radius: 2em;
     border-color: rgb(0, 0, 0);
     border-style:dotted;
-    border-width: 30%;
+    border-width: 50%;
     margin: 1em;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 #Connect li {
@@ -45,4 +59,10 @@ body {
     border-color:rgb(0, 0, 0);
     border-style:dotted;
     margin: .2em;
+}
+
+#nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
