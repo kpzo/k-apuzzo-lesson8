@@ -2,7 +2,7 @@
 #nav li {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     padding: 1em;
     background-color: #bafff9;
     margin: .5em;
